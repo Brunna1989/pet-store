@@ -72,7 +72,7 @@ System.out.println("Histórico de Serviços: " + ps.tipoDeServicoList(1));
 
 ## Testes Unitários:
 
-O projeto inclui testes unitários com JUnit5 para garantir a correção da classe PetService. Execute os testes usando:
+O projeto inclui testes unitários com JUnit5 para garantir as funcionalidades da classe PetService. Execute os testes usando:
 
 ```bash
 mvn test
