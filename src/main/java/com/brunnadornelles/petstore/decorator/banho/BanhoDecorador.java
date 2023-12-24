@@ -1,7 +1,5 @@
 package com.brunnadornelles.petstore.decorator.banho;
 
-import com.brunnadornelles.petstore.decorator.banho.Banho;
-
 public abstract  class BanhoDecorador implements Banho {
 
     private Banho banho;

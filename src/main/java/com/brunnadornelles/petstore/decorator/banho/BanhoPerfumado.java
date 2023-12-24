@@ -1,7 +1,5 @@
 package com.brunnadornelles.petstore.decorator.banho;
 
-import com.brunnadornelles.petstore.decorator.banho.Banho;
-import com.brunnadornelles.petstore.decorator.banho.BanhoDecorador;
 import com.google.inject.Inject;
 
 public class BanhoPerfumado extends BanhoDecorador {
