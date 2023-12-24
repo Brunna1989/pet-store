@@ -19,7 +19,7 @@ O projeto está organizado em pacotes:
 - `builder`: Fornece construtores para criar instâncias de Pet e TipoDeServico.
 - `service`: Define a classe PetService para gerenciar animais de estimação e serviços.
 - `app`: Contém a classe Main para executar a aplicação Pet Store.
-- `test`: Inclui testes JUnit para a classe PetService.
+- `test`: Inclui testes unitários com JUnit5 para a classe PetService.
 
 ## Como Utilizar
 
@@ -72,7 +72,7 @@ System.out.println("Histórico de Serviços: " + ps.tipoDeServicoList(1));
 
 ## Testes Unitários:
 
-O projeto inclui testes JUnit para garantir a correção da classe PetService. Execute os testes usando:
+O projeto inclui testes unitários com JUnit5 para garantir a correção da classe PetService. Execute os testes usando:
 
 ```bash
 mvn test
